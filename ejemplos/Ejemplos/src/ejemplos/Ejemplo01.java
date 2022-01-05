@@ -16,18 +16,30 @@ public class Ejemplo01 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
-        obtenerMultiplicacion(10, 20);
+
+        //obtenerMultiplicacion(10, 20);
+        //obtenerSuma();
+        //String miNombre = obtenerNombre();
+        String miCiudad = obtenerCiudadMayuscula("loja");
+        System.out.printf("%s\n", miCiudad);
+
     }
-    
-    
-    public void obtenerSuma(){
-    
+
+    public static void obtenerSuma() {
+
     }
-    
-    public static void obtenerMultiplicacion(int tabla, int limite){
-    
+
+    public static void obtenerMultiplicacion(int tabla, int limite) {
+
     }
-    
-    
+
+    public static String obtenerNombre() {
+        return "Pablo";
+    }
+
+    public static String obtenerCiudadMayuscula(String a) {
+        String b;
+        b = a.toUpperCase();
+        return b;
+    }
 }

@@ -14,7 +14,7 @@ public class Ejemplo05 {
     public static void main(String[] args) {
         // 
         int suma = 100;
-        obtenerSuma(10, 30); // se invoca al método (procedimiento) obtenerSuma
+       // obtenerSuma(10, 30); // se invoca al método (procedimiento) obtenerSuma
         System.out.println(suma);
         
     }

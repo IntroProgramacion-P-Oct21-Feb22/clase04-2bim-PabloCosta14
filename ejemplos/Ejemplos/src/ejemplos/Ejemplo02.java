@@ -16,22 +16,23 @@ public class Ejemplo02 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
-        
+
+        int a = obtenerSuma(100);
+        double c = obtenerMultiplicacion(1000);
+        System.out.printf("%s\n", a);
+        System.out.printf("%s\n", c);
     }
-    
-    
-    public int obtenerSuma(int a){
+
+    public static int obtenerSuma(int a) {
         int b;
         b = a;
         return b;
     }
-    
-    public double obtenerMultiplicacion(int b){
+
+    public static double obtenerMultiplicacion(int b) {
         double resultado;
-        resultado = (double)b/10;
+        resultado = (double) b / 10;
         return resultado;
     }
-    
-    
+
 }

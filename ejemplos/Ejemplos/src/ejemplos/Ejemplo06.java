@@ -17,10 +17,12 @@ public class Ejemplo06 {
                            
     public static void main(String[] args) {
         // 
-        
+         System.out.printf("Valor de variable suma (main): %d\n", suma); 
         obtenerSuma(10, 30);
         obtenerSumaDos();
-        System.out.printf("Valor de variable suma (main): %d\n", suma); 
+        obtenerSumaDos();
+        obtenerSuma(10, 30);
+       // System.out.printf("Valor de variable suma (main): %d\n", suma); 
         
     }
         
